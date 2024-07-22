@@ -15,6 +15,7 @@
 #include <qmetatype.h>
 #include <qimage.h>
 #include <qpixmap.h>
+#include <qpainterpath.h>
 
 class QwtPainterCommand;
 

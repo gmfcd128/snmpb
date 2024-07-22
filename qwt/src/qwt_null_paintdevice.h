@@ -13,6 +13,7 @@
 #include "qwt_global.h"
 #include <qpaintdevice.h>
 #include <qpaintengine.h>
+#include <qpainterpath.h>
 
 /*!
   \brief A null paint device doing nothing

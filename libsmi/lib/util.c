@@ -144,7 +144,7 @@ void smiFree(void *ptr)
 
 int smiIsPath(const char *s)
 {
-    return (/*strchr(s, '.') ||*/ strchr(s, DIR_SEPARATOR));
+    return (strchr(s, DIR_SEPARATOR) != NULL);
 }
 
 
